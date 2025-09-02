@@ -1,0 +1,106 @@
+/* Fondo cósmico */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("/static/background.jpg"); /* Asegúrate que esté en la carpeta static */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+/* Encabezado con logo */
+header {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 0 10px #00d4ff);
+}
+
+h1 {
+    font-size: 3em;
+    color: #00d4ff;
+    text-shadow: 2px 2px #6a00ff;
+    margin: 0;
+}
+
+.slogan {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #ccc;
+    text-shadow: 1px 1px 3px #000;
+}
+
+/* Secciones con fondo semitransparente */
+section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+}
+
+/* Títulos de sección */
+h2 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 1px 1px 5px #000;
+}
+
+/* Listas de ingredientes */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 3px #000;
+}
+
+ul li::before {
+    content: "✨";
+    position: absolute;
+    left: 0;
+}
+
+/* Advertencias */
+.advertencia {
+    background-color: rgba(255, 0, 0, 0.2);
+    border-left: 5px solid #ff4d4d;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+}
+
+/* Datos nutricionales */
+.nutricional {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1em;
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px #000;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 0.9em;
+    color: #ccc;
+    text-shadow: 1px 1px 2px #000;
+}
